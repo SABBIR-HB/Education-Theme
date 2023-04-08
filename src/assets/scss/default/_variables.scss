@@ -1,0 +1,129 @@
+/*-- Variables --*/
+:root {
+    //Themes colors
+    --color-primary: #637fea;
+    --color-primary-alt: #D1EBE6;
+    --color-secondary: #cfa2e8;
+    --color-secondary-alt: #fef4f4;
+
+    // Typo Color 
+    --color-heading: #192335;
+    --color-heading-2: #081F32;
+    --color-body: #000000;
+
+    // Gery Colors 
+    --color-gray: #A1A9AC;
+
+    // White Colors 
+    --color-white: #ffffff;
+
+    // light Colors 
+    --color-light: #F5F7FA;
+    --color-lighter: #F2F5F9;
+    
+    // dark Colors 
+    --color-dark: #6E798C;
+    --color-darker: #4E5562;
+    --color-darkest: #273041;
+
+    //Extra Colour 
+    --color-extra: #DCDCDC;
+    --color-extra-2: #374A59;;
+    --color-extra-3: #CBCBCB;
+    --color-bg-1: #EAF8F5;
+
+
+
+    // Card Background Color
+    --color-card-1: #FFF9F9;
+    --color-card-2: #F5FCFA;
+    --color-card-3: #FEFDF8;
+    --color-card-4: #F8FCFB;
+
+
+    //Badge Card Background Color
+    --color-badge-1: #303F5B;
+    --color-badge-2: #F2C94C;
+    
+    
+    // Notify Colors 
+    --color-success: #3EB75E;
+    --color-danger: #FF0003;
+    --color-warning: #FF8F3C;
+    --color-info: #1BA2DB;
+
+
+    //Social icon colors
+    --color-facebook: #3B5997;
+    --color-twitter: #1BA1F2;
+    --color-youtube: #ED4141;
+    --color-linkedin: #0077B5;
+    --color-pinterest: #E60022;
+    --color-instagram: #C231A1;
+    --color-vimeo: #00ADEF;
+    --color-twitch: #6441A3;
+    --color-discord: #7289da;
+    
+    //Border-radius
+    --radius: 10px;
+    --radius-big: 16px;
+    --radius-small: 6px;
+    --border-width: 2px;
+
+
+    //Font weight
+    --f-light: 300;
+    --f-regular: 400;
+    --f-medium: 500;
+    --f-semi-bold: 600;
+    --f-bold: 700;
+    --f-extra-bold: 800;
+    --f-black: 900;
+
+
+    //Shadows
+    --shadow-primary: 0px 4px 10px rgba(37, 47, 63, 0.1);
+    --shadow-light: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    --shadow-dark: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+
+
+    //transition easing
+    --transition: 0.3s;
+
+    //Font Family
+    --font-primary: 'Manrope', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+
+
+    //Fonts Size
+    --font-size-b1: 24px;
+    --font-size-b2: 18px;
+    --font-size-b3: 16px;
+    --font-size-b4: 12px;
+
+    //Line Height
+    --line-height-b1: 1.5; //24px
+    --line-height-b2: 1.67; //18px
+    --line-height-b3: 1.67; //16px
+    --line-height-b4: 1; //12px
+
+    
+    // Heading Font 
+    --h1: 52px; //52px 1.29
+    --h2: 44px; //44px 1.23
+    --h3: 34px; // 34px 1.14
+    --h4: 30px; //30px  1.25
+    --h5: 20px; //18px 1.24
+    --h6: 16px; //20px 1.25
+}
+
+// Layouts Variation
+$smlg-device: 'only screen and (max-width: 1199px)';
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+

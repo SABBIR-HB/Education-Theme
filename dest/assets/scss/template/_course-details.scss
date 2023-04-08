@@ -1,0 +1,433 @@
+.rbt-course-details-page{
+    .embed-responsive-item{
+        width: 810px;
+        height: 480px;
+        @media #{$laptop-device} {
+            width: 750px;
+            height: 430px;
+        }
+        @media #{$lg-layout} {
+            width: 100%;
+            height: 380px;
+        }
+        @media #{$md-layout} {
+            width: 100%;
+            height: 380px;
+        }
+        @media #{$sm-layout} {
+            width: 100%;
+            height: 300px;
+        }
+        @media #{$small-mobile} {
+            width: 100%;
+            height: 270px;
+        }
+    }
+    .nav-pills{
+        margin-top: 20px;
+        li{
+            button{
+                padding: 11px 30px;
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+    .tab-content{
+        .tab-pane{
+            .description-box{
+                padding-top: 20px;
+                h4{
+                    font-size: 24px;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: #192335;
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+            .curriculum-section{
+                padding-top: 20px;
+                .scedule-box{
+                    border: 1px solid #DCE4EE;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    .title{
+                        padding: 22px 40px;
+                        margin: 0;
+                    }
+                    ul{
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        li{
+                            padding: 16px 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-size: 15px;
+                            color: var(--color-heading);
+                            line-height: 25px;
+                            margin: 0;
+                            &.bg-light{
+                                background-color: #F5F7FA !important;
+                            }
+                            .left-side{
+                                i{
+                                    font-size: 12px;
+                                }
+                            }
+                            .right-side{
+                                display: flex;
+                                align-items: center;
+                                .tag-btn{
+                                    padding: 8px 16px;
+                                    background: #FDE0E0;
+                                    border-radius: 4px;
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    color: var(--color-secondary);
+                                    &.tag-btn-primary{
+                                        background: var(--color-primary);
+                                        color: var(--color-white);
+                                    }
+                                    &.tag-btn-primary-alt{
+                                        background: var(--color-primary-alt);
+                                        color: var(--color-primary);
+                                    }
+                                    &.tag-btn-secondary{
+                                        background: var(--color-secondary);
+                                        color: var(--color-white);
+                                    }
+                                }
+                                .tag-btn+ .tag-btn{
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .scedule-box+ .scedule-box{
+                    margin-top: 50px;
+                }
+            }
+            .single-profile{
+                padding-top: 20px;
+                position: relative;
+                .single-course-content{
+                    padding-left: 20px;
+                    align-self: center;
+                    h2.title{
+                        font-size: 36px;
+                        line-height: 48px;
+                        margin-bottom: 0;
+                    }
+                    p.title-text{
+                        color: var(--color-dark);
+                        font-size: var(--font-size-b3);
+                        margin-bottom: 20px;
+                    }
+                    p.content-text{
+                        color: var(--color-dark);
+                        font-size: var(--font-size-b3);
+                        margin-right: 30px;
+                        max-width: 600px;
+                    }
+                    .follow-section{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        p.follow-text{
+                            color: var(--color-primary);
+                            font-size: var(--font-size-b3);
+                            margin-right: 20px;
+                            margin-bottom: 0;
+                        }
+                        ul.social-icons{
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                            li{
+                                margin: 0;
+                                color: var(--color-white);
+                                display: inline-block;
+                                a{
+                                    display: flex;
+                                    width: 40px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    font-size: var(--font-size-b3);
+                                    border-radius: 100%;
+                                    background: var(--color-lighter);
+                                    border: none;
+                                    color: var(--color-heading);
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                a:hover{
+                                    background: var(--color-secondary);
+                                    border-color: transparent;
+                                    color: var(--color-white);
+                                }
+                            }
+                            li+li{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .review-details{
+                padding: 100px 0;
+                border-bottom: 1px solid #DCE4EE;
+                .title{
+                    font-size: 24px;
+                    margin-bottom: 12px;
+                    line-height: 36px;
+                }
+                .ratings-statistics{
+                    display: flex;
+                    .avg-rating{
+                        margin-right: 50px;
+                        h6{
+                            font-size: 18px;
+                            margin-bottom: 50px;
+                        }
+                        .rating-box{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            background: var(--color-white);
+                            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+                            border-radius: 4px;
+                            padding: 29px 51px;
+                            padding-bottom: 32px;
+                            .large-num{
+                                font-size: 60px;
+                                color: var(--color-secondary);
+                                margin-bottom: 10px;
+                            }
+                            .star-icons{
+                                display: flex;
+                                list-style: none;
+                                margin-bottom: 10px;
+                                padding: 0;
+                                li{
+                                    margin: 0;
+                                    font-size: 14px;
+                                    a{
+                                        color: #F2994A;
+                                    }
+                                }
+                                li+li{
+                                    margin-left: 6px;
+                                }
+                            }
+                            p{
+                                color: var(--color-heading);
+                            }
+                        }
+                    }
+                    .details-rating{
+                        h6{
+                            font-size: 18px;
+                            margin-bottom: 50px;
+                        }
+                        .progress-area{
+                            .single-progress{
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                                .star-icons{
+                                    display: flex;
+                                    margin: 0;
+                                    padding: 0;
+                                    list-style: none;
+                                    margin-right: 30px;
+                                    li{
+                                        margin: 0;
+                                        font-size: 13px;
+                                        a{
+                                            color: #F2994A;
+                                        }
+                                    }
+                                    li+li{
+                                        margin-left: 5px;
+                                    }
+                                }
+                                .rbt-progress-bar{
+                                    position: relative;
+                                    width: 390px;
+                                    height: 6px;
+                                    background: #DCE4EE;
+                                    border-radius: 2px;
+                                    .bar{
+                                        width: 0;
+                                        height: 100%;
+                                        background: var(--color-secondary);
+                                        &.bar-1{
+                                            width: 35%;
+                                        }
+                                        &.bar-2{
+                                            width: 30%;
+                                        }
+                                        &.bar-3{
+                                            width: 25%;
+                                        }
+                                        &.bar-4{
+                                            width: 10%;
+                                        }
+                                        &.bar-5{
+                                            width: 5%;
+                                        }
+                                        .percent{
+                                            position: absolute;
+                                            top: -12px;
+                                            right: -40px;                                               
+                                        }
+                                    }
+                                    .bar-3{
+                                        width: 35%;
+                                    }
+                                }
+                            }
+                            .single-progress+.single-progress{
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .comment-section{
+                padding-top: 50px;
+                .title-tag{
+                    font-size: 24px;
+                    line-height: 36px;
+                    margin-bottom: 40px;
+                }
+                .title{
+                    color: var(--color-secondary);
+                }
+                .rating-part{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    h6{
+                        margin-bottom: 0;
+                        margin-right: 20px;
+                    }
+                    .star-icons{
+                        display: flex;
+                        list-style: none;
+                        margin-bottom: 0;
+                        padding: 0;
+                        li{
+                            margin: 0;
+                            font-size: 14px;
+                            a{
+                                color: #F2994A;
+                            }
+                        }
+                        li+li{
+                            margin-left: 6px;
+                        }
+                    }
+
+                }
+                .contact-form{
+                    input, textarea{
+                        width: 100%;
+                        border: 1px solid #D1EBE6;
+                        border-radius: 6px;
+                        padding: 13px 20px;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #A1A9AC;
+                        outline: none;
+                        &::placeholder{
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #A1A9AC;
+                        }
+                    }
+                    textarea{
+                        height: 300px;
+                        margin-bottom: 40px;
+                    }
+                    button{
+                        outline: none;
+                        padding: 0;
+                        border: none;
+                        a{
+                            padding: 0 82px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .course-features-section{
+        margin-left: 30px;
+        @media #{$md-layout} {
+           margin-left: 0;
+           margin-top: 30px;
+        }
+        @media #{$sm-layout} {
+           margin-left: 0;
+           margin-top: 30px;
+        }
+        h4{
+            &.title{
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+        .info-card{
+            padding-bottom: 30px;
+            .info-list{
+                margin-bottom: 44px;
+            }
+            .social-section{
+                text-align: center;
+                margin-top: 20px;
+                .title{
+                    margin-bottom: 10px;
+                }
+                .social-icons{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    li{
+                        margin: 0;
+                        color: var(--color-white);
+                        display: inline-block;
+                        a{
+                            display: flex;
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            font-size: var(--font-size-b3);
+                            border-radius: 100%;
+                            background: var(--color-darkest);
+                            border: none;
+                            color: var(--color-white);
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        a:hover{
+                            background: var(--color-secondary);
+                            border-color: transparent;
+                        }
+                    }
+                    li+li{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

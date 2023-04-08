@@ -1,0 +1,58 @@
+/**
+ * Section Title
+ */
+
+.section-title {
+    .title {
+        margin-bottom: 0;
+        font-size: 36px;
+        margin-bottom: 50px;
+        line-height: 48px;
+        @media #{$large-mobile} {
+            font-size: 30px;
+        }
+        @media #{$small-mobile} {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        span{
+            color: var(--color-secondary);
+        }
+    }
+}
+.title-badge{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: var(--f-medium);
+    color: var(--color-heading);
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00000010;
+    border-radius: 100px;
+    text-transform: uppercase;
+    &.title-badge-primary{
+        background: var(--color-primary-alt);
+        color: var(--color-primary);
+    }
+    &.title-badge-secondary{
+        background: var(--color-secondary-alt);
+        color: var(--color-secondary);
+    }
+    @media #{$small-mobile} {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

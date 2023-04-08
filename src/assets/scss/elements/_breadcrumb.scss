@@ -1,0 +1,189 @@
+/*====================
+    Breadcrump Area 
+======================*/
+.breadcrumb-area {
+    background: url(../images/bread-crumb/breadcrumb-bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &.breadcrumb-style-2{
+      background: url(../images/bread-crumb/breadcrumb-bg-2.png);
+    }
+    &.breadcrumb-style-3{
+      background: url(../images/bread-crumb/breadcrumb-bg-3.png);
+    }
+    &.breadcrumb-style-4{
+      background: url(../images/bread-crumb/breadcrumb-bg-4.png);
+      .breadcrumb-inner{
+        ul{
+          li{
+            color: var(--color-white);
+            &.active{
+              color: var(--color-gray);
+            }
+            a{
+              color: var(--color-white);
+            }
+            .icon-right{
+              i{
+                color: var(--color-white);
+              }
+            }
+          }
+        }
+        .title {
+          color: var(--color-white);
+        } 
+      }
+    }
+    &.breadcrumb-style-5{
+      background: url(../images/bread-crumb/breadcrumb-bg-5.png);
+      .breadcrumb-inner{
+        ul{
+          li{
+            color: var(--color-white);
+            &.active {
+              color: var(--color-gray); 
+            }
+            a{
+              color: var(--color-white);
+            }
+            .icon-right{
+              i{
+                color: var(--color-white);
+              }
+            }
+          }
+        }
+        .title {
+          color: var(--color-white);
+        } 
+      }
+    }
+    &.breadcrumb-style-6{
+      background: url(../images/bread-crumb/breadcrumb-bg-6.png);
+    }
+    &.breadcrumb-style-7{
+      background: url(../images/bread-crumb/breadcrumb-bg-7.png);
+      .breadcrumb-inner{
+        ul{
+          li{
+            color: var(--color-white);
+            &.active {
+              color: var(--color-gray); 
+            }
+            a{
+              color: var(--color-white);
+            }
+            .icon-right{
+              i{
+                color: var(--color-white);
+              }
+            }
+          }
+        }
+        .title {
+          color: var(--color-white);
+        } 
+      }
+    }
+    &.breadcrumb-style-8{
+      background: url(../images/bread-crumb/breadcrumb-bg-8.png);
+      .breadcrumb-inner{
+        ul{
+          li{
+            color: var(--color-white);
+            a{
+              color: var(--color-white);
+            }
+            .icon-right{
+              i{
+                color: var(--color-white);
+              }
+            }
+          }
+        }
+        .title {
+          color: var(--color-white);
+        } 
+      }
+    }
+    &.breadcrumb-style-9{
+      background: url(../images/bread-crumb/breadcrumb-bg-9.png);
+      .breadcrumb-inner{
+        ul{
+          li{
+            color: var(--color-white);
+            &.active{
+              color: var(--color-white);
+              opacity: 0.7;
+            }
+            a{
+              color: var(--color-white);
+              opacity: 0.9;
+            }
+            .icon-right{
+              i{
+                color: var(--color-white);
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+        .title {
+          color: var(--color-white);
+        } 
+      }
+    }
+    .breadcrumb-inner{
+      padding: 85px 0;
+      @media #{$sm-layout} {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px 0;
+      }
+      ul{
+        transition: 0.5s;
+        padding: 0;
+        margin: 0;
+        li{
+          display: inline-block;
+          font-size: 14px;
+          color: var(--color-heading); 
+          margin: 0;
+          &.active {
+            color: var(--color-secondary); 
+          }
+          a{
+            color: var(--color-heading);
+            transition: 0.5s; 
+          }
+          a:hover {
+            color: var(--color-secondary); 
+          }
+          .icon-right{
+            i{
+              color: var(--color-heading);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+      .title {
+        color: var(--color-heading);
+        margin-bottom: 5px;
+        span{
+          color: var(--color-primary);
+        } 
+      } 
+    }
+    
+  }
+  
+
+  
+  

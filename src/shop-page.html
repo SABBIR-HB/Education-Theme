@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Our Shop || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumbNine.html', {
+    "title": "Products Store",
+    "title2": "Our Shop"
+    })
+
+    <!-- Start Shop Page -->
+    <div class="rbt-shop-page rbt-section-gap">
+        <div class="container">
+            <div class="row row--15">
+                <div class="col-md-3">
+                    <div class="search-section">
+                        <h5 class="title">Search Course</h5>
+                        <div class="search-box">
+                            <input type="text" class="textbox" placeholder="Click to search">
+                            <button type="submit"><i class="feather-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-select-option">
+                        <label class="filter-leble">Price Range</label>
+                        <div class="price_filter s-filter clear">
+                            <form action="#" method="GET">
+                                <div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                                    <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 18.3673%; width: 40.8163%;"></div>
+                                    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 18.3673%;"></span>
+                                    <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 59.1837%;"></span></div>
+                                <div class="slider__range--output">
+                                    <div class="price__output--wrap">
+                                        <div class="price--output">
+                                            <span>Price :</span><input type="text" id="amount" readonly="">
+                                        </div>
+                                        <div class="price--filter">
+                                            <a class="btn btn-primary btn-small" href="#">Filter</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="popular-product-part">
+                        <h5 class="title">Popular Product</h5>
+                        <div class="card-area">
+                            <div class="list-style-product-card">
+                                <div class="product-img">
+                                    <a href="shop-details.html"><img src="assets/images/shop-page-img/card-img/card-img-4.png" alt="Product Image"></a>
+                                </div>
+                                <div class="product-details">
+                                    <h5><a href="shop-details.html">Devoloper Choice</a></h5>
+                                    <h5 class="price">$35.00</h5>
+                                </div>
+                            </div>
+                            <div class="list-style-product-card">
+                                <div class="product-img">
+                                    <a href="shop-details.html"><img src="assets/images/shop-page-img/card-img/card-img-3.png" alt="Product Image"></a>
+                                </div>
+                                <div class="product-details">
+                                    <h5><a href="shop-details.html">Science of Human</a></h5>
+                                    <h5 class="price">$45.00</h5>
+                                </div>
+                            </div>
+                            <div class="list-style-product-card">
+                                <div class="product-img">
+                                    <a href="shop-details.html"><img src="assets/images/shop-page-img/card-img/card-img-10.png" alt="Product Image"></a>
+                                </div>
+                                <div class="product-details">
+                                    <h5><a href="shop-details.html">Smart Watch</a></h5>
+                                    <h5 class="price">$46.00</h5>
+                                </div>
+                            </div>
+                            <div class="list-style-product-card">
+                                <div class="product-img">
+                                    <a href="shop-details.html"><img src="assets/images/shop-page-img/card-img/card-img-2.png" alt="Product Image"></a>
+                                </div>
+                                <div class="product-details">
+                                    <h5><a href="shop-details.html">Skill Devolopment</a></h5>
+                                    <h5 class="price">$39.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-tag-section">
+                        <h5 class="title">Product Tags</h5>
+                        <div class="tag-part">
+                            <a href="" class="product-tag">business</a>
+                            <a href="" class="product-tag">seo</a>
+                            <a href="" class="product-tag">Marketing</a>
+                            <a href="" class="product-tag">early education</a>
+                            <a href="" class="product-tag">programming</a>
+                            <a href="" class="product-tag">online learning</a>
+                            <a href="" class="product-tag">motivation</a>
+                            <a href="" class="product-tag">software</a>
+                            <a href="" class="product-tag">teaching</a>
+                            <a href="" class="product-tag">digital</a>
+                            <a href="" class="product-tag">computer science</a>
+                            <a href="" class="product-tag">computer</a>
+                            <a href="" class="product-tag">development</a>
+                        </div>      
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row row--15">
+                        <div class="col-md-12">
+                            <div class="shorting-section">
+                                <p>Showing 1-9 of 20 results</p>
+                                <div class="shorting-part">
+                                    <select>
+                                        <option selected="" value="0">Default Sorting</option>
+                                        <option value="1">All Language</option>
+                                        <option value="2">All Prices</option>
+                                        <option value="3">All Skills</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row--15">
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-2.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">The Computer Science of Human Decisions</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $39.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-3.png" alt="Card image">
+                                    </a>
+                                    <span class="img-tag">-20%</span>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Science of Human</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $45.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-4.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Computer Science</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $35.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row--15">
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-5.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Best School Bag</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $50.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-6.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Premium Money Bag</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $32.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-7.png" alt="Card image">
+                                    </a>
+                                    <span class="img-tag">Sale!</span>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Best Quality Shoe</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $67.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row--15">
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-8.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Smart Glass</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $25.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-9.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Digital Pen</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $12.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt--30">
+                            <div class="rbt-card rbt-book-card">
+                                <div class="card-img">
+                                    <a href="shop-details.html">
+                                        <img src="assets/images/shop-page-img/card-img/card-img-10.png" alt="Card image">
+                                    </a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title"><a href="shop-details.html">Smart Watch</a></h5>
+                                    <div class="price">
+                                        <div class="current-price">
+                                            $46.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @@include('common/pagination.html')
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Shop Page -->
+    
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

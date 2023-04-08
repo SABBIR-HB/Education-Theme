@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Error Page || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumb.html', {
+    "title": "Error Page",
+    "title2": "Error Page"
+    })
+
+    <!-- Start Error Page Area -->
+    <div class="rbt-section-gap error-page-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner-text text-center">
+                        <h1 class="large-text">
+                            404
+                        </h1>
+                        <h3 class="title">
+                            Oopsy! Page not found
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor ullamco laboris nisi ut aliquip.
+                        </p>
+                        <div class="back-to-btn">
+                            <a class="rbt-btn btn-large" href="index.html">Back To Homepage<i class="feather-arrow-right"></i></a>
+                        </div>
+                        <a href="#" class="help-center-link">Visit our help center</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Error Page Area -->
+
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

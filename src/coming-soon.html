@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Registeration Page || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumb.html', {
+    "title": "Registeration",
+    "title2": "Get in touch with Wisedu via <span>Registeration</span>"
+    })
+
+    <!-- Start Registeration Page Area -->
+    <div class="rbt-section-gap registeration-page">
+        <div class="container">
+            <div class="row inner">
+                <div class="col-lg-5 col-md-12 inner-text">
+                    <div class="title-text">
+                        <h1 class="title">
+                            Welcome!
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="login-form">
+                        <h2 class="title">Register</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                        <div class="single-form">
+                            <h6>Email or username*</h6>
+                            <input name="email" type="email" placeholder="Email or username">
+                        </div>
+                        <div class="single-form">
+                            <h6>Username*</h6>
+                            <input name="text" type="text" placeholder="Username">
+                        </div>
+                        <div class="single-form">
+                            <h6>Password*</h6>
+                            <input name="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="single-form">
+                            <h6>Confirm Password*</h6>
+                            <input name="password" type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="single-form checkbox-form">
+                            <input type="checkbox" id="log-in-checker" name="log-in-checker1" value="">
+                            <label for="log-in-checker1">Lorem ipsum dolor sit amet consectetu.</label>
+                        </div>
+                        <div class="log-in-btn">
+                            <a class="rbt-btn btn-large" href="#">Register Now</a>
+                        </div>
+                        <a href="#" class="extra-link">or Sign in with Google</a>
+                        <ul class="register-link">
+                            <li>
+                                <a href="" class="g-link">
+                                    <div class="g-icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    Sign in with Google
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="f-link">
+                                    <div class="f-icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    Sign in with Facebook
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Registeration Area -->
+
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

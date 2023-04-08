@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Contact Us || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumb.html', {
+    "title": "Contact",
+    "title2": "Get in touch with Wisedu via contacts"
+    })
+
+    <!-- Start Contact Area -->
+    <div class="rbt-contact-area rbt-section-gap">
+        <div class="container">
+
+            <div class="row row--15">
+                <div class="col-md-12 text-center">
+                    <h4 class="title">
+                        Contact Info
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row row--15 mt_dec--30">
+
+                <!-- Start Single Contact Section -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt--30">
+                    <div class="rbt-contact-card rbt-contact-address">
+                        <div class="icon">
+                            <i class="feather-map-pin"></i>
+                        </div>
+                        <h6>Address</h6>
+                        <ul>
+                            <li>4517 Washington Ave. Manchester, Kentucky</li>
+                            <li>2464 Royal Ln. Mesa, New Jersey</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Single Contact Section -->
+
+                <!-- Start Single Contact Section -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt--30 ">
+                    <div class="rbt-contact-card rbt-contact-Number">
+                        <div class="icon">
+                            <i class="feather-phone"></i>
+                        </div>
+                        <h6>Contact</h6>
+                        <ul>
+                            <li><a href="tel:+1(207) 555-0119">+1(207) 555-0119</a></li>
+                            <li><a href="mailto:nevaeh.rupo@example.com">nevaeh.rupo@example.com</a></li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Single Contact Section -->
+
+                <!-- Start Single Contact Section -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt--30 ">
+                    <div class="rbt-contact-card rbt-contact-time">
+                        <div class="icon">
+                            <i class="feather-clock"></i>
+                        </div>
+                        <h6>Working Time</h6>
+                        <ul>
+                            <li>Monday - Friday: 9:00am - 23:00pm</li>
+                            <li>Saturday & Sunday: 9:00am - 21:00pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Single Contact Section -->
+
+            </div>
+
+            <div class="row row--15">
+                <div class="col-md-12">
+                    <div class="contact-img">
+                        <img src="assets/images/contact-img/map.png" alt="Map">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row--15">
+                <div class="col-md-12">
+                    <div class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input name="name" type="text" placeholder="Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="email" type="email" placeholder="E-mail">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input name="phone-number" type="tel" placeholder="Phone Number">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="subject" type="text" placeholder="Subject">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit">
+                            <a class="rbt-btn btn-primary btn-large" href="#button">Send message</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Start Contact Area -->
+
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

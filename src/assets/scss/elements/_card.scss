@@ -1,0 +1,260 @@
+// Start Card Style
+
+.rbt-card {
+    background: var(--color-white);
+    border: none;
+    border-radius: var(--radius);
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 100%;
+
+    @media #{$large-mobile} {
+        margin: 0 100px;
+    }
+
+    @media #{$small-mobile} {
+        margin: 0 20px;
+    }
+
+    .card-body {
+        padding: 30px;
+        text-align: left;
+
+        @media #{$md-layout} {
+            padding: 20px 15px;
+        }
+
+        @media #{$sm-layout} {
+            padding: 20px 15px;
+        }
+
+        .card-title {
+            color: var(--color-heading);
+            margin: 15px 0px;
+
+            @media #{$md-layout} {
+                margin: 5px 0px;
+            }
+
+            @media #{$sm-layout} {
+                margin: 5px 0px;
+            }
+
+            a {
+                transition: 0.3s;
+            }
+        }
+
+        .card-text {
+            font-size: var(--font-size-b3);
+            color: var(--color-extra-2);
+            margin-bottom: 5px;
+            line-height: 25px;
+        }
+    }
+
+    &.rbt-card-1 {
+        &.card-bg-1 {
+            background: var(--color-card-1);
+            ;
+        }
+
+        &.card-bg-2 {
+            background: var(--color-card-2);
+            ;
+        }
+
+        &.card-bg-3 {
+            background: var(--color-card-3);
+            ;
+        }
+
+        &.card-bg-4 {
+            background: var(--color-card-4);
+            ;
+        }
+
+        .card-body {
+            padding-top: 40px;
+            padding-bottom: 27px;
+            .card-icon {
+                position: relative;
+                display: inline-block;
+                img{
+                    max-width: 50px;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: -40px;
+                    background: rgba(254, 182, 146, 0.12);
+                    height: 85px;
+                    width: 28px;
+                    border-radius: 0px 0px 2px 2px;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .card-title {
+                margin-top: 36px;
+            }
+        }
+    }
+
+}
+
+.info-card {
+    background-color: var(--color-white);
+    padding: 22px 30px;
+    box-shadow: 10px 15px 50px rgba(25, 35, 53, 0.08);
+    border-radius: 10px;
+    padding-bottom: 35px;
+
+    .title {
+        font-size: 24px;
+        color: var(--color-heading);
+        font-weight: 800;
+        margin-bottom: 35px;
+        &.title-secondary{
+            color: var(--color-secondary);
+        }
+    }
+
+    .info-list {
+        padding-left: 0;
+        margin-bottom: 25px;
+        list-style: none;
+
+        li {
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            color: var(--color-heading);
+            font-size: 15px;
+            font-weight: 500;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -15px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: #DCE4EE;
+            }
+            .right-side {
+                color: #4E5562;
+            }
+        }
+
+        li+li {
+            margin-top: 30px;
+        }
+    }
+
+    &.meeting-section {
+        .note-text {
+            font-size: 15px;
+            font-weight: 600;
+            color: #4E5562;
+            margin-bottom: 31px;
+
+            span {
+                font-size: 16px;
+                color: var(--color-heading);
+            }
+        }
+
+        .meeting-btn-group {
+            a {
+                width: 100%;
+                &.meeting-btn-2{
+                    background-color: var(--color-primary);
+                    &:hover{
+                        background-color: var(--color-secondary);
+                    }
+                }
+            }
+
+            a.rbt-btn {
+                @media #{$lg-layout} {
+                    padding: 0 10px;
+                }
+
+                @media #{$md-layout} {
+                    padding: 0 20px;
+                }
+
+                @media #{$small-mobile} {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+.subject-card{
+    background: var(--color-white);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    transition: 0.3s;
+    &:hover{
+        box-shadow: 0px 20px 30px -15px rgba(25, 35, 53, 0.2);
+    }
+    h6.title{
+        color: #081F32;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .course-plan{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 15px;
+        color: #6E798C;
+        .vedios{
+            margin-left: 20px;
+        }
+        i{
+            margin-right: 8px;
+            font-size: 15px;
+        }
+    }
+    &.subject-card-style-2{
+        border-radius: 10px;
+        transition: 0.4s;
+        &:hover{
+            background: url(../images/card-img/subject-card-img.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            border-radius: 10px;
+            height: 100%;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 0;
+            .icon-img{
+                display: none;
+            }
+            h6.title{
+                margin-top: 0;
+                color: var(--color-white);
+            }
+            .course-plan{
+                color: var(--color-white);
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Brands || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumb.html', {
+    "title": "Brands",
+    "title2": "Brands Styles"
+    })
+
+
+    <!-- Start Brands Style -->
+    <div class="rbt-brand-area bg-color-color-light rbt-section-gap pt--0">
+        @@include('brand-style/brand-style-1.html')
+        
+        @@include('brand-style/brand-style-1-slider.html')
+
+        @@include('brand-style/brand-style-2.html')
+
+        @@include('brand-style/brand-style-2-slider.html')
+
+        @@include('brand-style/brand-style-3.html')
+        
+    </div>
+    <!-- End Brands Style -->
+
+    
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

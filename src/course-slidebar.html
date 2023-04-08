@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Course Slidebar || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumbFour.html', {
+    "title": "Courses",
+    "title2": "Archives: Courses"
+    })
+
+    <!-- Start Course Slidebar Area -->
+    <div class="rbt-course-slidebar bg-color-light rbt-section-gap">
+        <div class="container">
+            <div class="row row--15 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+                    <div class="search-section">
+                        <h5 class="title">Search Course</h5>
+                        <div class="search-box">
+                            <input type="text" class="textbox" placeholder="Click to search">
+                            <button type="submit"><i class="feather-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="catagories-section">
+                        <h5 class="title">Categories</h5>
+                        <div class="radio-btn-card catagories-section-card">
+                            <ul class="catagories-box">
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Science
+                                    </p>
+                                    <p class="right">
+                                        (30)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Marketing
+                                    </p>
+                                    <p class="right">
+                                        (25)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group" checked>
+                                        Grapic Design
+                                    </p>
+                                    <p class="right">
+                                        (27)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Social Marketing
+                                    </p>
+                                    <p class="right">
+                                        (22)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Fitness
+                                    </p>
+                                    <p class="right">
+                                        (29)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Creative
+                                    </p>
+                                    <p class="right">
+                                        (23)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Personal
+                                    </p>
+                                    <p class="right">
+                                        (25)
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="payment-section">
+                        <h5 class="title">Fee</h5>
+                        <div class="radio-btn-card payment-section-card">
+                            <ul class="payment-box">
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        All
+                                    </p>
+                                    <p class="right">
+                                        (350)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Paid
+                                    </p>
+                                    <p class="right">
+                                        (230)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Free
+                                    </p>
+                                    <p class="right">
+                                        (120)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Scholarship
+                                    </p>
+                                    <p class="right">
+                                        (25)
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="level-section">
+                        <h5 class="title">Fee</h5>
+                        <div class="radio-btn-card level-section-card">
+                            <ul class="level-box">
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Beginner
+                                    </p>
+                                    <p class="right">
+                                        (350)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Intermediate
+                                    </p>
+                                    <p class="right">
+                                        (230)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="left">
+                                        <input type="radio" id="test" name="radio-group">
+                                        Advanced
+                                    </p>
+                                    <p class="right">
+                                        (120)
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slidebar-card-section">
+                        <div class="card-inner">
+                            <h4 class="title"><a href="course-details.html">Graphic Design</a></h4>
+                            <p>Advanced Course</p>
+                            <a class="rbt-btn btn-xs" href="#button">Get Start<i class="feather-arrow-right"></i></a>
+                            <div class="offer-price">
+                                <span>-50%</span>
+                                <span>Off</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-section">
+                        <h5 class="title">Letest Course</h5>
+                        <div class="course-section-card">
+                            <div class="single-course-card">
+                                <div class="course-sm-img">
+                                    <a href="course-details.html"><img src="assets/images/card-img/badge/1.png" alt="Card Image"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="title">
+                                        <a href="course-details.html">Learn New Skills</a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                </div>
+                            </div>
+                            <div class="single-course-card">
+                                <div class="course-sm-img">
+                                    <a href="course-details.html"><img src="assets/images/card-img/badge/badge-card-img-2.png" alt="Card Image"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="title">
+                                        <a href="course-details.html">Best Teacher Support</a>
+                                    </h5>
+                                    <p>Our team was inspired by the seven skills of highl the...</p>
+                                </div>
+                            </div>
+                            <div class="single-course-card">
+                                <div class="course-sm-img">
+                                    <a href="course-details.html"><img src="assets/images/card-img/badge/badge-card-img-3.png" alt="Card Image"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="title">
+                                        <a href="course-details.html">How To Succeed</a>
+                                    </h5>
+                                    <p>A ratione voluptate aperiam consequuntur ipsa eius iste!...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-8 col-12">
+                    <div class="row row--15 mt_dec--30">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/card-img-108.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-55%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>17 Lessons</li>
+                                        <li><i class="feather-users"></i>65 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Mechanical Engineering learning Courses.</a></h5>
+                                    <p class="card-text">
+                                        Possimus obcaecati reprehenderit alias ex veritatis, corrupti ab quis cumque id.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (15 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$85</span>
+                                            <span class="off-price">$170</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/card-img-107.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-45%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>32 Lessons</li>
+                                        <li><i class="feather-users"></i>40 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Electrical Engineering Learning Courses.</a></h5>
+                                    <p class="card-text">
+                                        Deleniti expedita molestiae sequi commodi maxime iusto? Ea, quas odio.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (17 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$75</span>
+                                            <span class="off-price">$150</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/card-img-106.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-40%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>15 Lessons</li>
+                                        <li><i class="feather-users"></i>80 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Web Devolopment - Crush Courses.</a></h5>
+                                    <p class="card-text">
+                                        Dolorem repellat tenetur saepe veniam unde consectetur. Molestias, distinctio.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (22 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$80</span>
+                                            <span class="off-price">$160</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/card-img-105.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-60%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>12 Lessons</li>
+                                        <li><i class="feather-users"></i>50 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Graphic Design - Advanced Courses.</a></h5>
+                                    <p class="card-text">
+                                        Voluptatum a eos laborum temporibus non nihil laborum id neque quis alias.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (15 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$60</span>
+                                            <span class="off-price">$120</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/blog-card-img-9.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-50%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>32 Lessons</li>
+                                        <li><i class="feather-users"></i>40 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Electrical Engineering Learning Courses.</a></h5>
+                                    <p class="card-text">
+                                        Deleniti expedita eius molestiae quasi sequi commodi maxime iusto? Ea, quas odio.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (17 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$75</span>
+                                            <span class="off-price">$150</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/blog-card-img-10.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-50%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>17 Lessons</li>
+                                        <li><i class="feather-users"></i>65 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Mechanical Engineering learning Courses.</a></h5>
+                                    <p class="card-text">
+                                        Possimus obcaecati reprehenderit alias ex veritatis, corrupti ab quis cumque id.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (15 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$85</span>
+                                            <span class="off-price">$170</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/blog-card-img-5.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-50%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>25 Lessons</li>
+                                        <li><i class="feather-users"></i>60 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Computer Engineering Learning Courses.</a></h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, adipisci.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (42 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$90</span>
+                                            <span class="off-price">$180</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt--30">
+                            <div class="rbt-card rbt-card-2">
+                                <div class="card-img">
+                                    <a href="course-details.html">
+                                        <img src="assets/images/card-img/blog-card-img-11.png" alt="Card image">
+                                        <div class="offer bg-white">
+                                            <span>-50%</span>
+                                            <span>Off</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="caption">
+                                        <li><i class="feather-book"></i>19 Lessons</li>
+                                        <li><i class="feather-users"></i>75 Students</li>
+                                    </ul>
+                                    <h5 class="card-title"><a href="course-details.html">Web Design - Exclusive Courses.</a></h5>
+                                    <p class="card-text">
+                                        Amet ea officiis nisi nesciunt repellat quisquam deleniti dolorum repudiandae.
+                                    </p>
+                                    <div class="review-area">
+                                        <ul class="star-icon">
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                        </ul>
+                                        <div class="review-text">
+                                            (18 Reviews)
+                                        </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="price">
+                                            <span class="current-price">$70</span>
+                                            <span class="off-price">$140</span>
+                                        </div>
+                                        <a class="rbt-btn-link btn-link-md stretched-link" href="course-details.html">Learn More <i class="feather-arrow-right ml--5"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @@include('common/pagination.html')
+        </div>
+    </div>
+    <!-- Start Course Slidebar Area -->
+
+    @@include('common/calltoAction.html')
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

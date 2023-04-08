@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('styles.html',{
+"title": "Events || Educational Bootstrap5 Template"
+})
+
+<body>
+
+    @@include('header/headerTwo.html')
+    @@include('common/breadcrumbThree.html', {
+    "title": "Events",
+    "title2": "Our Upcoming Events"
+    })
+
+    <!-- Start Events Area -->
+    <div class="event-section rbt-section-gap">
+        <div class="container">
+
+            @@include('cards/events-card/events-card-2.html')
+
+            @@include('common/pagination.html')
+
+            @@include('cards/events-card/events-card-1.html')
+
+            @@include('common/pagination.html')
+
+        </div>
+    </div>
+    <!-- Start Events Area -->
+
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+
+</body>
+
+</html>

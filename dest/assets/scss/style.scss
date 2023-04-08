@@ -1,0 +1,133 @@
+/*********************************************************************************
+
+	Template Name: Template Full Name Here
+	Description: A perfect Template For Portfolio. It comes with nice and clean design.
+	Version: 1.0
+
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ Reset Styles
+	|	|___ Typography
+	|	|___ Animations
+	|	|___ Utilities
+	|
+	|
+	|___Elements Styles
+	|	|___ Button
+	|	|___ Section Title
+	|
+	|
+	|___Blocks Styles
+	|	|___ Header 
+	|	|___ Navigation 
+	|	|___ Banner
+	|	|___ Footer
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+
+
+/**************************************
+	Header Styles
+***************************************/
+@import 'header/header';
+@import 'header/nav';
+@import 'header/mobilemenu';
+
+
+/**************************************
+	Elements Styles
+***************************************/
+@import 'elements/button';
+@import 'elements/section-title';
+@import 'elements/breadcrumb';
+@import 'elements/card';
+@import 'elements/testimonials';
+@import 'elements/brands';
+@import 'elements/counterup';
+@import 'elements/pagination';
+@import 'elements/callto-action';
+@import 'elements/teacher-section';
+@import 'elements/connect-area';
+@import 'elements/check-blog-section';
+@import 'elements/counterdown-area';
+@import 'elements/slider';
+
+
+
+
+
+
+
+/**************************************
+	Template Styles
+***************************************/
+@import 'template/banner';
+@import 'template/grid-course';
+@import 'template/list-course';
+@import 'template/events-page';
+@import 'template/profile-page';
+@import 'template/single-zoom-section';
+@import 'template/contact-page';
+@import 'template/course-details';
+@import 'template/course-slidebar';
+@import 'template/events-details';
+@import 'template/shop-details';
+@import 'template/about-us';
+@import 'template/shop-page';
+@import 'template/teacher-details';
+@import 'template/blog-details';
+@import 'template/error-page';
+@import 'template/login-page';
+@import 'template/register-page';
+
+
+
+/**************************************
+	Variation Page Styles
+***************************************/
+@import 'variation-page/demo-page';
+
+
+
+/**************************************
+	Footer Styles
+***************************************/
+@import 'footer/footer';
+@import 'footer/back-to-top';
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,236 @@
+
+// Start Counterup Area
+.rbt-counterup{
+    @media #{$sm-layout} {
+        margin: 15px 0;
+    }
+    .icon{
+        i{
+            color: var(--color-primary);
+            font-size: 50px;
+        }
+    }
+    .count-number{
+        span{
+            font-size: 36px;
+            font-weight: var(--f-extra-bold);
+            color: var(--color-primary);
+        }
+        p{
+            font-size: 36px;
+            font-weight: var(--f-extra-bold);
+            color: var(--color-primary);
+            margin: 0;
+            display: inline-block;
+        }
+    }    
+    .counterup-text{
+        font-size: var(--font-size-b2);
+        font-weight: var(--f-medium);
+        color: var(--color-dark);
+    }
+}
+.counterup-style-two{
+    background: url(../images/counter-up/bg-1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    .section-title{
+        .title{
+            color: var(--color-white);
+        }
+        .title-badge{
+            background: var(--color-darkest);
+            opacity: 0.8;
+            color: var(--color-white);
+        }
+    }
+    .rbt-counterup{
+        .count-number{
+            span{
+                color: var(--color-white);
+            }
+        }
+        .counterup-text{
+            color: var(--color-white);
+            opacity: 0.8;
+        }
+        .icon{
+            i{
+                color: var(--color-white);
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.counterup-style-three{
+    padding-bottom: 200px !important;
+    .inner-img{
+        z-index: 2;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: -80px;
+            left: -90px;
+            background: url(../images/counter-up/bg-shape-1.png);
+            background-repeat: no-repeat;
+            height: 135px;
+            width: 265px;
+            z-index: -1;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            left: -94px;
+            background: url(../images/counter-up/bg-shape-2.png);
+            background-repeat: no-repeat;
+            height: 146px;
+            width: 146px;
+            z-index: -1;
+        }
+        .provide-area{
+            z-index: 5;
+            position: absolute;
+            top: 350px;
+            left: 275px;
+            background-color: var(--color-white);
+            padding: 30px 104px;
+            width: 945px;
+            border-radius: 4px;
+            box-shadow: 8px 10px 30px rgba(25, 35, 53, 0.08);
+            h1{
+                &.title{
+                    font-size: 48px;
+                    font-weight: 700;
+                    max-width: 735px;
+                    margin-bottom: 15px;
+                    span{
+                        color: var(--color-secondary);
+                    }
+                }
+            }
+            p{
+                max-width: 725px;
+            }
+        }
+    }
+    .rbt-counterup{
+        padding: 33px 0;
+        border-radius: 6px;
+        &.rbt-counterup-1{
+            background-color: var(--color-card-1);
+        }
+        &.rbt-counterup-2{
+            background-color: var(--color-card-2);
+        }
+        &.rbt-counterup-3{
+            background-color: var(--color-card-3);
+        }
+        &.rbt-counterup-4{
+            background-color: var(--color-card-4);
+        }
+    }
+}
+.counterup-style-four{
+    padding-top: 164px;
+    padding-bottom: 155px;
+    position: relative;
+    z-index: 2;
+    @media #{$md-layout} {
+        padding-bottom: 100px;
+    }
+    @media #{$sm-layout} {
+        padding-bottom: 80px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: 108px;
+        right: 130px;
+        background: url(../images/counter-up/bg-shape-4.png);
+        background-repeat: no-repeat;
+        height: 146px;
+        width: 146px;
+        z-index: -1;
+    }
+    .inner-img{
+        z-index: 2;
+        position: relative;
+        border-radius: 6px;
+        &::before{
+            content: '';
+            position: absolute;
+            top: -64px;
+            left: -72px;
+            background-color: var(--color-heading);
+            height: 394px;
+            width: 344px;
+            z-index: -1;
+            border-radius: 6px;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -90px;
+            left: -188px;
+            background: url(../images/counter-up/bg-shape-3.png);
+            background-repeat: no-repeat;
+            height: 160px;
+            width: 201px;
+            z-index: -1;
+        }
+    }
+    .inner-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        @media #{$md-layout} {
+            padding-top: 80px;
+        }
+        @media #{$sm-layout} {
+            padding-top: 60px;
+        }
+        .inner-text{
+            margin-bottom: 76px;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                top: 198px;
+                left: 0;
+                background-color: #DCE4EE;
+                height: 1px;
+                width: 100%;
+                @media #{$md-layout} {
+                    top: 145px;
+                }
+                @media #{$sm-layout} {
+                    top: 85px;
+                }
+            }
+            .title{
+                font-size: 36px;
+                line-height: 48px;
+                margin-bottom: 10px;
+                span{
+                    color: var(--color-secondary);
+                }
+            }
+            p{
+                font-size: 16px;
+                max-width: 500px;
+            }
+        }
+        .rbt-counterup{
+            .count-number{
+                span{
+                    color: var(--color-secondary);
+                }
+            }
+        }
+    }
+}
